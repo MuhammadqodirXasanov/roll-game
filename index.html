@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./main.css" />
+		<title>Roll Dice Game</title>
+	</head>
+	<body>
+		<div class="main-box">
+			<section class="box active" id="box1">
+				<h1 class="title">PLAYER 1</h1>
+				<h1 class="score" id="score1">0</h1>
+				<p class="curr">
+					CURRENT <br />
+					<span class="curr-score" id="curr-score1">0</span>
+				</p>
+			</section>
+
+			<div class="control-box">
+				<button class="new-game-btn btn" id="new-game-btn">NEW GAME</button>
+				<div class="roll" id="roll"></div>
+				<button class="dice-btn btn" id="roll-btn">ROLL</button>
+				<button class="hold-btn btn" id="hold">HOLD</button>
+			</div>
+
+			<section class="box" id="box2">
+				<h1 class="title">PLAYER 2</h1>
+				<h1 class="score" id="score2">0</h1>
+				<p class="curr">
+					CURRENT <br />
+					<span class="curr-score" id="curr-score2">0</span>
+				</p>
+			</section>
+		</div>
+
+		<div class="overlay"></div>
+		<script src="./main.js"></script>
+	</body>
+</html>
